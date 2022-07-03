@@ -68,6 +68,8 @@ header .nav-link:hover {
   padding-top: 169px;
   height: 100vh;
   background-image: url(/assets/grid-background.svg);
+  background-position: center;
+  background-size: cover;
 }
 .home h1 {
   font-weight: 700;
@@ -103,4 +105,5 @@ header .nav-link:hover {
   background-color: var(--secondary);
   filter: blur(250px);
   z-index: -1;
+  background-position: center;
 }
