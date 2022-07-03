@@ -66,6 +66,8 @@ header .nav-link:hover {
 /* === HOME === */
 .home {
   padding-top: 169px;
+  height: 100vh;
+  background-image: url(/assets/grid-background.svg);
 }
 .home h1 {
   font-weight: 700;
@@ -92,15 +94,13 @@ header .nav-link:hover {
   border: 1px solid transparent;
   color: var(--simple-title);
 }
-.home img {
-  position: absolute;
-}
+
 .gradiente-home {
   position: absolute;
   right: 570px;
   width: 400px;
   height: 400px;
   background-color: var(--secondary);
-  filter: blur(400px);
-  z-index: -2;
+  filter: blur(250px);
+  z-index: -1;
 }
